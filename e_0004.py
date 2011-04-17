@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 
-def is_palindrome(p):
-    return str(p) == str(p)[::-1]
-
+from util import is_palindrome
 if __name__ == "__main__":
     cur_max_xy = 0
     max_x      = 0
